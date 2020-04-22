@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Abdelrahman Abouldahab">
+    <meta name="description" content="Official Website Of DAHABSHOP">
+    <meta name="keywords" content="DAHABSHOP,دهب شوب,Shop,Dahab">
+    <title>DAHABSHOP - Add AD</title>
+    <link rel="icon" href="https://e.top4top.io/p_1570fyw3a1.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+      body{
+        background: #191919;
+        padding:0;
+        margin:0;
+      }
+      .main{
+        width:75%;
+        background:#212121;
+        padding:15px;
+        margin-top:5em;
+      }
+      .main i{
+        color:orange;
+        font-size:55px;
+        margin-top:15px;
+      }
+      .main h1{
+        font-family: 'Cairo',sans-serif;
+        font-size:25px;
+        color:orange;
+        margin-top: 15px;
+      }
+      .main button{
+        margin-top:15px;
+        color:#212121;
+        font-family: 'Cairo',sans-serif;
+        font-size:20px;
+        width:25%;
+      }
+      @media(max-width: 786px){
+        .main{
+          width: 90%;
+        }
+      }
+    </style>
+</head>
+<body>
+<center>
+  <div class="main">
+    <i class="fas fa-plus-circle"></i>
+    <h1>لأضافه اعلانك اتواصل معانا علي الايميل وابعتلنا صورة من المنتج والتفاصيل</h1>
+    <a href='mailto:dahabshop.eg@gmail.com'><button class="btn btn-warning">راسلنا</button></a>
+  </div>
+</center>
+<script language="JavaScript">
+ window.onload = function () {
+     document.addEventListener("contextmenu", function (e) {
+         e.preventDefault();
+     }, false);
+     document.addEventListener("keydown", function (e) {
+         //document.onkeydown = function(e) {
+         // "I" key
+         if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+             disabledEvent(e);
+         }
+         // "J" key
+         if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+             disabledEvent(e);
+         }
+         // "S" key + macOS
+         if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+             disabledEvent(e);
+         }
+         // "U" key
+         if (e.ctrlKey && e.keyCode == 85) {
+             disabledEvent(e);
+         }
+         // "F12" key
+         if (event.keyCode == 123) {
+             disabledEvent(e);
+         }
+     }, false);
+     function disabledEvent(e) {
+         if (e.stopPropagation) {
+             e.stopPropagation();
+         } else if (window.event) {
+             window.event.cancelBubble = true;
+         }
+         e.preventDefault();
+         return false;
+     }
+ }
+//edit: removed ";" from last "}" because of javascript error
+</script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
+</body>
+</html>

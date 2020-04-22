@@ -1,1 +1,1 @@
-web: gunicorn DahabShop.wsgi --log-file -
+web: gunicorn dahabshop.wsgi --log-file -

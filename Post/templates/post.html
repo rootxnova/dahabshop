@@ -102,7 +102,7 @@
   </head>
 <body>
 <center><div class="postt">
-<p><span class='header'>{{post.user}} | {{post.created}} | <a href="clothes"><span class="tag" data-toggle="tooltip" data-placement="top" title="كلمة دلالية">{% for tag in post.tags.all %} {{tag}} {% endfor %}</span></a></span><br><h1>{{post.title}}</h1><br><span class="content">{{post.content|safe}}</span><br>
+<p><span class='header'>{{post.user}} | {{post.created}} | <span class="tag" data-toggle="tooltip" data-placement="top" title="كلمة دلالية">{% for tag in post.tags.all %} {{tag}} {% endfor %}</span></span><br><h1>{{post.title}}</h1><br><span class="content">{{post.content|safe}}</span><br>
 
 <!-- Button trigger modal-->
 <button type="button" class="btn btn-warning buynow" data-toggle="modal" data-target="#modalAbandonedCart">شراء المنتج</button>

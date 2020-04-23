@@ -86,3 +86,10 @@ def statue(request):
         'statue' : statue
     }
     return render(request , 'statue.html' , context)
+
+def charge(request):
+    all_categories = Post.objects.filter(categories__name='Charge')
+    context={
+        'all_categories' : all_categories
+    }
+    return render(request , 'charge.html' , context)

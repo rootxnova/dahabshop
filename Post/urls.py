@@ -16,5 +16,6 @@ urlpatterns = [
 	url(r'^add$',views.add,name='add'),
 	url(r'^download$',views.download,name='download'),
 	url(r'^statue$',views.statue,name='statue'),
+	url(r'^charge$',views.charge,name='charge'),
 
 ]

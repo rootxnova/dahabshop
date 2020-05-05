@@ -22,6 +22,7 @@ class Post(models.Model):
     location = models.CharField(max_length=50,default='')
     tags = TaggableManager()
     content = RichTextField()
+    tafasel = models.TextField(default='')
     created = models.DateTimeField(default=timezone.now)
     categories = models.ManyToManyField(category)
 

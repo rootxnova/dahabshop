@@ -24,4 +24,4 @@ urlpatterns = [
     url('',include('Post.urls',namespace='blog')),
     url('accounts/',include('accounts.urls',namespace='accounts')),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -128,6 +128,10 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 
+MEDIA_ROOT = '/media/'
+
+MEDIA_URL = '/media/'
+
 LOGIN_REDIRECT_URL = '/'
 
 #CKEDITOR
